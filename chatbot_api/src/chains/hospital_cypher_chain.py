@@ -97,6 +97,8 @@ billing_amount)
 If you need to divide numbers, make sure to filter the denominator to be non
 zero.
 
+[NB]: DO NOT ANSWER ANY QUESTIONS BEYOND YOUR GIVEN CONTEXT
+
 The question is:
 {question}
 """
@@ -138,6 +140,9 @@ the query results. Make sure to show all the relevant query results
 if you're asked.
 
 Helpful Answer:
+
+
+[NB]: DO NOT ANSWER ANY QUESTIONS BEYOND YOUR GIVEN CONTEXT
 """
 
 qa_generation_prompt = PromptTemplate(
